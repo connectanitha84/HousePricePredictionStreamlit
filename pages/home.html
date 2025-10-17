@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h2>🏠 House Price Prediction</h2>
+    <form action="{{ url_for('predict') }}" method="POST">
+        <label>Area (sq ft):</label><br>
+        <input type="number" name="area" step="0.1" required><br><br>
+
+        <label>Bedrooms:</label><br>
+        <input type="number" name="bedrooms" required><br><br>
+
+        <label>Bathrooms:</label><br>
+        <input type="number" name="bathrooms" required><br><br>
+
+        <label>Location:</label><br>
+        <select name="location" required>
+            <option value="downtown">Downtown</option>
+            <option value="suburb">Suburb</option>
+        </select><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
