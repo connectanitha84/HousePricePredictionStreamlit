@@ -1,0 +1,13 @@
+area,bedrooms,bathrooms,location,price
+750,2,1,Mumbai,12000000
+850,2,2,Delhi,9000000
+1200,3,2,Bengaluru,15000000
+950,2,2,Chennai,8000000
+1500,4,3,Mumbai,22000000
+600,1,1,Kolkata,4500000
+2000,4,3,Bengaluru,25000000
+1100,3,2,Delhi,13000000
+700,1,1,Chennai,5500000
+1300,3,2,Kolkata,11000000
+1600,4,3,Mumbai,24000000
+980,2,2,Bengaluru,10000000
